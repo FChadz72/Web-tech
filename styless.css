@@ -173,12 +173,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%; /* Ensures the footer stretches full width */
 }
 
 .footer__links {
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap; /* Allows links to wrap to new lines on smaller screens */
 }
 
 .footer__link--wrapper {
@@ -195,7 +197,7 @@
     color: var(--primary-color);
     text-decoration: none;
     margin-bottom: 0.5rem;
-    transition: 0.3s ease-out;
+    transition: color 0.3s ease-out; /* Changed transition property to focus on color */
 }
 
 .footer__link--items a:hover {
