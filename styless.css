@@ -137,10 +137,10 @@
     outline: none;
 }
 
-}
-
-.main__btn:hover::after {
-    width: 100%;
+.main__btn:hover {
+    background: #f77062; /* Change to a slightly different colour on hover */
+    transform: scale(1.1); /* Make the button a bit bigger when hovered */
+    transition: transform 0.2s ease-in-out, background 0.3s ease;
 }
 
 /* Footer */
