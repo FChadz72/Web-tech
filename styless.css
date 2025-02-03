@@ -102,15 +102,20 @@
     margin: auto;
 }
 
-.main__content h1,
-.main__content h2 {
+.main__content h1 {
     font-size: 4rem;
     background: var(--gradient-red);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-
+.main__content h2 {
+    font-size: 2rem;
+    background: var(--gradient-blue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
 .main__content p {
     margin-top: 1rem;
