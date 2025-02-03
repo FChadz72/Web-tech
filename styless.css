@@ -108,6 +108,7 @@
     background: var(--gradient-red);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .main__content h2 {
