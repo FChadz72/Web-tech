@@ -119,13 +119,13 @@
 
 .main__content p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--primary-color);
 }
 
 .main__btn {
-    margin-top: 10rem; 
+    margin-top: 4rem; 
     font-size: 1rem;
     background: var(--gradient-button);
     padding: 14px 32px;
@@ -141,44 +141,6 @@
 
 .main__btn:hover::after {
     width: 100%;
-}
-
-/* Services Section */
-.services {
-    background: var(--background-dark);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-}
-
-.services h1 {
-    font-size: 2.5rem;
-    background: var(--gradient-red);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 5rem;
-}
-
-.services__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.services__card {
-    margin: 1rem;
-    height: 525px;
-    width: 400px;
-    border-radius: 4px;
-    background-size: cover;
-    position: relative;
-    color: var(--primary-color);
-    transition: transform 0.2s ease-in;
-}
-
-.services__card:hover {
-    transform: scale(1.075);
 }
 
 /* Footer */
