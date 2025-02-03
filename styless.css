@@ -193,11 +193,11 @@
     margin: 16px;
 }
 
-.footer__link--items a {
-    color: var(--primary-color);
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-    transition: color 0.3s ease-out; /* Changed transition property to focus on color */
+.footer__link--items h2 span {
+    background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .footer__link--items a:hover {
