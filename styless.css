@@ -111,9 +111,6 @@
     -webkit-background-clip: text;
 }
 
-.main__content h2 {
-    background: var(--gradient-blue);
-}
 
 .main__content p {
     margin-top: 1rem;
