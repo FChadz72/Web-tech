@@ -168,7 +168,7 @@
 
 /* Footer */
 .footer__container {
-    background-color: var(--background-dark);
+    background-color: #000000;
     padding: 5rem 0;
     display: flex;
     justify-content: center;
