@@ -210,12 +210,12 @@
     text-align: center;
     margin-top: 2rem;
 
-.footer__link--items h2 {
-    font-size: 1.8rem;
+.footer__link--items h2 span {
     background: var(--gradient-red);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 @media screen and (max-width: 768px) {
     .main__container {
