@@ -111,6 +111,7 @@
 }
 .main__content h2 {
     font-size: 3rem;
+    margin-top: 2rem;
     background: var(--gradient-blue);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -125,20 +126,20 @@
 }
 
 .main__content ul {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0;
-    list-style-type: none; /* Remove default bullets */
+    list-style-type: none; 
 }
 
 .main__content li {
     margin-top: 1rem;
-    font-size: 1.5rem; /* Adjusted font size for readability */
+    font-size: 1.5rem; 
     font-weight: 700;
     color: var(--primary-color);
 }
 
 .main__content li::before {
-    content: "• "; /* Custom bullet points */
+    content: "* "; /* Custom bullet points */
     color: var(--gradient-red); /* Custom bullet colour */
     font-size: 2rem;
     margin-right: 10px; /* Space between bullet and text */
@@ -159,8 +160,8 @@
 }
 
 .main__btn:hover {
-    background: #f77062; /* Change to a slightly different colour on hover */
-    transform: scale(1.1); /* Make the button a bit bigger when hovered */
+    background: #f77062; 
+    transform: scale(1.1); 
     transition: transform 0.2s ease-in-out, background 0.3s ease;
 }
 
