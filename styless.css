@@ -121,17 +121,6 @@
     color: var(--primary-color);
 }
 
-.main__container {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; 
-    justify-content: flex-start; /* Align items to the top */
-    height: 90vh;
-    max-width: 1300px;
-    padding: 0 50px;
-    margin: auto;
-}
-
 .main__btn {
     margin-top: auto; /* Pushes the button to the bottom */
     font-size: 1rem;
