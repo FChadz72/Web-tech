@@ -210,6 +210,13 @@
     text-align: center;
     margin-top: 2rem;
 
+.footer__link--items h2 {
+    font-size: 1.8rem;
+    background: var(--gradient-red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
 @media screen and (max-width: 768px) {
     .main__container {
         grid-template-columns: auto;
