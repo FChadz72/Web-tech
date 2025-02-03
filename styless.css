@@ -112,6 +112,7 @@
 .main__content h2 {
     font-size: 3rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     background: var(--gradient-blue);
     background-clip: text;
     -webkit-text-fill-color: transparent;
