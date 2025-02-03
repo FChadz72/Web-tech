@@ -101,6 +101,15 @@
     padding: 0 50px;
     margin: auto;
 }
+#centered-page {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 100vh; /* Full screen height */
+}
+
 
 .main__content h1 {
     font-size: 4rem;
