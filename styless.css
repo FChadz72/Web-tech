@@ -122,7 +122,7 @@
 }
 
 .main__btn {
-    margin-top: auto; /* Pushes the button to the bottom */
+    margin-top: 10rem; 
     font-size: 1rem;
     background: var(--gradient-button);
     padding: 14px 32px;
